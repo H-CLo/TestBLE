@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BLECharacteristicTableViewCell" rowHeight="216" id="Stg-VF-mUW" customClass="BLECharacteristicTableViewCell" customModule="TestBLE" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="499" height="216"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Stg-VF-mUW" id="tNE-K7-WYZ">
+                <frame key="frameInset" width="499" height="216"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2HT-9U-bI2">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rhs-5C-fBE">
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dh2-e8-LsN">
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="rhs-5C-fBE" firstAttribute="width" secondItem="2HT-9U-bI2" secondAttribute="width" multiplier="2:7" id="EVS-Q0-QFE"/>
+                        </constraints>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tGL-bJ-xTl">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z0g-id-aCf">
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0SH-pZ-gme">
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="z0g-id-aCf" firstAttribute="width" secondItem="tGL-bJ-xTl" secondAttribute="width" multiplier="2:7" id="xom-30-Smj"/>
+                        </constraints>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qPw-Ai-hY6">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nru-ya-azu">
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3PQ-YF-ht2">
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Nru-ya-azu" firstAttribute="width" secondItem="qPw-Ai-hY6" secondAttribute="width" multiplier="2:7" id="0p8-Wo-BAn"/>
+                        </constraints>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZHM-tH-pHz">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PropHex" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVQ-aH-CwV">
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTA-hr-fnK">
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="sVQ-aH-CwV" firstAttribute="width" secondItem="ZHM-tH-pHz" secondAttribute="width" multiplier="2:7" id="lOx-YH-lqQ"/>
+                        </constraints>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VLz-h6-78R">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UUID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xU8-zm-0HD">
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H01-df-uGu">
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="xU8-zm-0HD" firstAttribute="width" secondItem="VLz-h6-78R" secondAttribute="width" multiplier="2:7" id="xWw-1a-j5B"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="tGL-bJ-xTl" firstAttribute="width" secondItem="VLz-h6-78R" secondAttribute="width" id="3Qu-r5-mAT"/>
+                    <constraint firstItem="tGL-bJ-xTl" firstAttribute="leading" secondItem="tNE-K7-WYZ" secondAttribute="leadingMargin" constant="42" id="6nj-pc-shK"/>
+                    <constraint firstItem="ZHM-tH-pHz" firstAttribute="width" secondItem="VLz-h6-78R" secondAttribute="width" id="8V2-Pt-0g3"/>
+                    <constraint firstItem="qPw-Ai-hY6" firstAttribute="width" secondItem="VLz-h6-78R" secondAttribute="width" id="98v-9B-rDE"/>
+                    <constraint firstItem="2HT-9U-bI2" firstAttribute="width" secondItem="VLz-h6-78R" secondAttribute="width" id="M3o-mU-UwV"/>
+                    <constraint firstItem="ZHM-tH-pHz" firstAttribute="leading" secondItem="tNE-K7-WYZ" secondAttribute="leadingMargin" constant="42" id="PVY-gK-3fs"/>
+                    <constraint firstItem="ZHM-tH-pHz" firstAttribute="top" secondItem="qPw-Ai-hY6" secondAttribute="bottom" constant="8" id="SJd-6V-5jR"/>
+                    <constraint firstItem="VLz-h6-78R" firstAttribute="width" secondItem="tNE-K7-WYZ" secondAttribute="width" multiplier="4:5" id="Uqf-qh-9C3"/>
+                    <constraint firstItem="2HT-9U-bI2" firstAttribute="leading" secondItem="tNE-K7-WYZ" secondAttribute="leadingMargin" constant="42" id="Znj-uW-fyj"/>
+                    <constraint firstItem="qPw-Ai-hY6" firstAttribute="top" secondItem="tGL-bJ-xTl" secondAttribute="bottom" constant="8" id="abl-Zc-yPI"/>
+                    <constraint firstItem="VLz-h6-78R" firstAttribute="top" secondItem="tNE-K7-WYZ" secondAttribute="topMargin" constant="20" id="bjJ-Wo-yp6"/>
+                    <constraint firstItem="tGL-bJ-xTl" firstAttribute="top" secondItem="2HT-9U-bI2" secondAttribute="bottom" constant="8" id="h1T-rm-nYs"/>
+                    <constraint firstItem="VLz-h6-78R" firstAttribute="leading" secondItem="tNE-K7-WYZ" secondAttribute="leadingMargin" constant="42" id="lzf-Qn-cvS"/>
+                    <constraint firstItem="qPw-Ai-hY6" firstAttribute="leading" secondItem="tNE-K7-WYZ" secondAttribute="leadingMargin" constant="42" id="ph8-tv-Lzk"/>
+                    <constraint firstItem="2HT-9U-bI2" firstAttribute="top" secondItem="VLz-h6-78R" secondAttribute="bottom" constant="8" id="z0R-RW-U8E"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblName" destination="dh2-e8-LsN" id="6nD-ke-ysB"/>
+                <outlet property="lblProp" destination="3PQ-YF-ht2" id="KsB-vw-ZUd"/>
+                <outlet property="lblPropHex" destination="xTA-hr-fnK" id="1ZP-9V-YF3"/>
+                <outlet property="lblUUID" destination="H01-df-uGu" id="OKE-TV-Zz1"/>
+                <outlet property="lblValue" destination="0SH-pZ-gme" id="lgU-S9-eaF"/>
+            </connections>
+            <point key="canvasLocation" x="84.5" y="4"/>
+        </tableViewCell>
+    </objects>
+</document>
